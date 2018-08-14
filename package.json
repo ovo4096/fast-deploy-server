@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "http-server ./wwwroot",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ovo4096/fast-deploy-server/issues"
   },
-  "homepage": "https://github.com/ovo4096/fast-deploy-server#readme"
+  "homepage": "https://github.com/ovo4096/fast-deploy-server#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
 }
